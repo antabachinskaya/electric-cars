@@ -1,0 +1,3 @@
+Autovent 1.0.1
+New added Gallery page (gallery.html)
+New added header autoshow option (file: designesia.js; var header_autoshow = 'on'; // on - for enable autoshow header, off - for fixed header)

@@ -9997,7 +9997,7 @@ p.lead.big{
 }
 
 .dark-scheme p.lead {
-  color: rgba(255, 255, 255, .75);
+  color: rgb(255, 255, 255);
 }
 
 p.lead.big {
@@ -18469,6 +18469,12 @@ img {
     font-size: 13vw;
     line-height: 13vw;
     padding: 0;
+  }
+   @media (max-width: 1050px) {
+    h2{
+      font-size: 6vw;
+    }
+    
   }
 
   .timeline>li>.timeline-panel {

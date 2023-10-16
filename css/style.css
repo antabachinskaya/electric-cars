@@ -50,8 +50,8 @@ Table of content:
 
 /* ================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* ================================================== */
 
@@ -67,8 +67,8 @@ Table of content:
 @import url("../fonts/icofont/icofont.min.css");
 
 * {
-  --title-font: "Prompt", Helvetica, Arial, sans-serif;
-  --body-font: "Manrope", Helvetica, Arial, sans-serif;
+  --title-font: "Montserrat", Helvetica, Arial, sans-serif;
+  --body-font: "Open Sans", Helvetica, Arial, sans-serif;
   --border-default: solid 1px rgba(30, 30, 30, 1);
   --bg-color-even: #E8E8E8;
   --bg-color-odd: #F4F4F4;
@@ -1418,7 +1418,7 @@ header.header-mobile.header-center #logo-center{
 /* ================================================== */
 
 section {
-  padding: 100px 0 80px 0;
+  padding: 60px 0 40px 0;
   position: relative;
 }
 
@@ -3696,8 +3696,8 @@ a.btn-main img {
 }
 
 a.btn-main.big{
-  font-size: 30px;
-  padding: 20px 30px;
+  font-size: 24px;
+  padding: 10px 20px;
 }
 
 a.btn-sc {
@@ -3976,10 +3976,17 @@ a.btn-link {
 
 .spacer-double {
   width: 100%;
-  height: 60px;
+  height: 120px;
   display: block;
   clear: both;
 }
+@media (max-width: 1000px) {
+  #spacer-double {
+    display: none;
+  }
+}
+
+
 
 .spacer-triple {
   width: 100%;
@@ -4481,7 +4488,7 @@ h2 .small-border {
 h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 54px;
+  font-size: 48px;
   margin-bottom: 20px;
   line-height: 1.1em;
 }
@@ -11709,7 +11716,7 @@ i.bg-color-secondary {
   padding-right: 8px;
   font-style: normal;
   font-weight: bold;
-  font-family: var(--title-font);
+  font-family: "Promt", Helvetica, Arial, sans-serif;
   color: var(--primary-color);
   user-select: none;
   text-transform:uppercase;
@@ -17915,7 +17922,7 @@ img {
   }
 
   #content section:first-of-type {
-    padding-top: 160px;
+    padding-top: 140px;
   }
 
   #sidebar {
@@ -18472,7 +18479,7 @@ img {
   }
    @media (max-width: 1050px) {
     h2{
-      font-size: 6vw;
+      font-size: 8vw;
     }
     
   }

@@ -4476,7 +4476,7 @@ h1.very-big-2 {
   font-size: 28px;
   display: block;
   margin-top: 0;
-  line-height: 1.2em;
+  line-height: 0em;
 }
 
 h2 .small-border {
@@ -4492,6 +4492,8 @@ h2 {
   margin-bottom: 20px;
   line-height: 1.1em;
 }
+
+
 
 h2.style-2 {
   font-size: 30px;
@@ -18480,6 +18482,7 @@ img {
    @media (max-width: 1050px) {
     h2{
       font-size: 8vw;
+      line-height: 11vw;
     }
     
   }
